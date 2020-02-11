@@ -1,7 +1,24 @@
 package com.codewithnas;
 
+import com.codewithnas.memento.Editor;
+import com.codewithnas.memento.History;
+
 public class Main {
 
     public static void main(String[] args) {
+        var editor = new Editor();
+        var history = new History();
+
+        editor.setContent("a");
+        history.push(editor.createState());
+
+        editor.setContent("b");
+        history.push(editor.createState());
+
+        editor.setContent("c");
+        editor.restore(history.pop());
+        editor.restore(history.pop());
+
+        System.out.println(editor.getContent());
     }
 }
