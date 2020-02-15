@@ -1,4 +1,4 @@
-package com.codewithnas.memento;
+package com.codewithnas.behavioural.memento;
 
 public class EditorState {
     private final String content;

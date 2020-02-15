@@ -1,4 +1,4 @@
-package com.codewithnas.memento;
+package com.codewithnas.behavioural.memento;
 
 import java.util.ArrayList;
 import java.util.List;
