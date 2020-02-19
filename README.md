@@ -40,6 +40,8 @@ Define a family of algorithms, encapsulate each one, and make them interchangeab
 - Client aware of strategies
 - Client chooses strategy Examples: java.util.Comparator Components: Context, Strategy, ConcreteStrategy
 
+<img src="src/com/codewithnas/behavioural/strategy/strategy_uml.JPG" width="500" >
+
 ### 5. Template Method
 
 Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm’s structure. Short Definition: Used to define an algorithm that allows subclasses to redefine parts of the algorithm without changing it's structure. Concepts:
