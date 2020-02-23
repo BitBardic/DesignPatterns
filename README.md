@@ -12,7 +12,7 @@ Without violating encapsulation, capture and externalize an object’s internal 
 - Externalize internal state
 - Shield complex internals Examples: java.util.Date, java.io.Serializable
 
-<img src="src/com/codewithnas/behavioural/memento/uml/memento.JPG" width="500" >
+<img src="src/com/codewithnas/behavioural/memento/uml/memento.JPG" width="400" >
 
 ### 2. State
 
@@ -57,7 +57,7 @@ Define the skeleton of an algorithm in an operation, deferring some steps to sub
 - IoC
 - Algorithm emphasis Examples: java.util.Collections#sort(), java.util.AbstractList#indexOf() Components: AbstractBase, ConcreteClass
 
-<img src="src/com/codewithnas/behavioural/template/uml/template.JPG" width="500" >
+<img src="src/com/codewithnas/behavioural/template/uml/template.JPG" width="150" >
 
 Can be implemented in two ways.
 
