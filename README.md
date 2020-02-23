@@ -12,6 +12,8 @@ Without violating encapsulation, capture and externalize an object’s internal 
 - Externalize internal state
 - Shield complex internals Examples: java.util.Date, java.io.Serializable
 
+<img src="src/com/codewithnas/behavioural/memento/uml/memento.JPG" width="500" >
+
 ### 2. State
 
 Allow an object to alter its behavior when its internal state changes. The object will appear to change its class. Short Definition: Used when we need to represent state of an application. Concepts:
@@ -21,6 +23,8 @@ Allow an object to alter its behavior when its internal state changes. The objec
 - Separates What from Where
 - OCP (Open-Close Principle) Examples: JSF Components: Context, State, ConcreteState
 
+<img src="src/com/codewithnas/behavioural/state/uml/state.JPG" width="500" >
+
 ### 3. Iterator
 
 Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation. Short Definition: It's a design pattern for providing navigation without exposing of a structure of an object. Concepts:
@@ -29,6 +33,8 @@ Provide a way to access the elements of an aggregate object sequentially without
 - Doesn't expose underlying structure
 - Decouples algorithms
 - Sequential Examples: java.util.Iterator, java.util.Enumeration
+
+<img src="src/com/codewithnas/behavioural/iterator/uml/iterator.JPG" width="500" >
 
 ### 4. Strategy
 
@@ -40,7 +46,7 @@ Define a family of algorithms, encapsulate each one, and make them interchangeab
 - Client aware of strategies
 - Client chooses strategy Examples: java.util.Comparator Components: Context, Strategy, ConcreteStrategy
 
-<img src="src/com/codewithnas/behavioural/strategy/strategy_uml.JPG" width="500" >
+<img src="src/com/codewithnas/behavioural/strategy/uml/strategy.JPG" width="500" >
 
 ### 5. Template Method
 
@@ -50,6 +56,18 @@ Define the skeleton of an algorithm in an operation, deferring some steps to sub
 - Common in libraries/frameworks
 - IoC
 - Algorithm emphasis Examples: java.util.Collections#sort(), java.util.AbstractList#indexOf() Components: AbstractBase, ConcreteClass
+
+<img src="src/com/codewithnas/behavioural/template/uml/template.JPG" width="500" >
+
+Can be implemented in two ways.
+
+#### Template - Implementation through Polymorphism
+
+<img src="src/com/codewithnas/behavioural/template/polymorphism/uml/template_polymorphism.JPG" width="500" >
+
+#### Template - Implementation through Inheritance
+
+<img src="src/com/codewithnas/behavioural/template/inheritance/uml/template_inheritance.JPG" width="500" >
 
 ### 6. Command
 
@@ -69,6 +87,17 @@ Define a one-to-many dependency between objects so that when one object changes 
 - Event Handling
 - Pub / Sub
 - Most used in MVC Examples: java.util.Observer, java.util.EventListener, javax.jms.Topic Components: Subject, Concrete Subject, Observer, Concrete Observer
+
+Can be implemented in two ways
+
+#### Push Style Observer
+     
+<img src="src/com/codewithnas/behavioural/observer/push/uml/observer_push.JPG" width="500" >
+    
+#### Pull Style Observer
+We introduce coupling at the cost if anything get changed related to observer interface we don't need to change concrete observers.
+    
+<img src="src/com/codewithnas/behavioural/observer/pull/uml/observer_pull.JPG" width="500" >
 
 ### 8. Mediator
 
