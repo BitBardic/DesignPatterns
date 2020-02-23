@@ -78,6 +78,8 @@ Encapsulate a request as an object, thereby letting you parameterize clients wit
 - Decouple sender from processor
 - Often used for "Undo" functionality Examples: java.lang.Runnable
 
+<img src="src/com/codewithnas/behavioural/command/uml/command.JPG" width="300" >
+
 ### 7. Observer
 
 Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically. Short Definition: Observer is a decoupling pattern, when we have a subject that need to be observed by one or more observers. (Similar to Mediator) Concepts:
