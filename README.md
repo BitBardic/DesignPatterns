@@ -78,7 +78,8 @@ Encapsulate a request as an object, thereby letting you parameterize clients wit
 - Decouple sender from processor
 - Often used for "Undo" functionality Examples: java.lang.Runnable
 
-<img src="src/com/codewithnas/behavioural/command/uml/command.JPG" width="300" >
+
+<img src="src/com/codewithnas/behavioural/command/uml/command.JPG" width="400" >
 
 ### 7. Observer
 
