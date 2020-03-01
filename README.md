@@ -111,6 +111,8 @@ Define an object that encapsulates how a set of objects interact. Mediator promo
 - Reusable components
 - Hub / Router Examples: java.util.Timer, java.lang.reflect.Method#invoke()
 
+<img src="src/com/codewithnas/behavioural/mediator/uml/mediator.JPG" width="400" >
+
 ### 9. Chain of Responsibility
 
 Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it. Short Definition: It's behavioral pattern that decouples request from a handling object in a chain of handlers util it is finally recognized. Concepts:
