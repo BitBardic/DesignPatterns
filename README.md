@@ -132,3 +132,5 @@ Represent an operation to be performed on the elements of an object structure. V
 - Adding new features
 - Maintain Open/Closed principle
 - Visitor changes Examples: java.lang.model.elementElementVisitor Components: Visitor, ConcreteVisitor, Element, ConcreteElement
+
+<img src="src/com/codewithnas/behavioural/visitor/uml/visitor.JPG" width="600" >
