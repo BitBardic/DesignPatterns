@@ -111,7 +111,7 @@ Define an object that encapsulates how a set of objects interact. Mediator promo
 - Reusable components
 - Hub / Router Examples: java.util.Timer, java.lang.reflect.Method#invoke()
 
-<img src="src/com/codewithnas/behavioural/mediator/uml/mediator.JPG" width="400" >
+<img src="src/com/codewithnas/behavioural/mediator/uml/mediator.JPG" width="500" >
 
 ### 9. Chain of Responsibility
 
@@ -122,7 +122,7 @@ Avoid coupling the sender of a request to its receiver by giving more than one o
 - Promotes loose coupling
 - No Handler - OK Examples: java.util.logging.Logger#log(), javax.servlet.Filter#doFilter(), Spring security filters
 
-<img src="src/com/codewithnas/behavioural/chainOfResponsibility/uml/chainOfResponsibility.JPG" width="400" >
+<img src="src/com/codewithnas/behavioural/chainOfResponsibility/uml/chainOfResponsibility.JPG" width="600" >
 
 ### 10. Visitor
 
