@@ -122,6 +122,8 @@ Avoid coupling the sender of a request to its receiver by giving more than one o
 - Promotes loose coupling
 - No Handler - OK Examples: java.util.logging.Logger#log(), javax.servlet.Filter#doFilter(), Spring security filters
 
+<img src="src/com/codewithnas/behavioural/chainOfResponsibility/uml/chainOfResponsibility.JPG" width="400" >
+
 ### 10. Visitor
 
 Represent an operation to be performed on the elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates. Short Definition: Way to separate an algorithm from an object structure. Concepts:
