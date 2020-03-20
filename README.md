@@ -134,3 +134,17 @@ Represent an operation to be performed on the elements of an object structure. V
 - Visitor changes Examples: java.lang.model.elementElementVisitor Components: Visitor, ConcreteVisitor, Element, ConcreteElement
 
 <img src="src/com/codewithnas/behavioural/visitor/uml/visitor.JPG" width="600" >
+
+## Structural Patterns
+
+### 1. Composite
+
+Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat Short definition: Composite is a hierarchical type pattern that deals with tree structures of information. individual objects and compositions of objects uniformly. Composite is often used with Iterator or Visitor. Concepts:
+
+- Components represent part of whole structure
+- Compose objects into tree structures
+- Individual object treated as a Composite
+- Some operations applied on individual and composites Examples: java.awt.Component, RESTful service GETs
+
+<img src="src/com/codewithnas/structural/composite/uml/composite.JPG" width="600" >
+
