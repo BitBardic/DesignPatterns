@@ -148,3 +148,13 @@ Compose objects into tree structures to represent part-whole hierarchies. Compos
 
 <img src="src/com/codewithnas/structural/composite/uml/composite.JPG" width="600" >
 
+### 2. Adapter
+
+Convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.Note: Works after code is designed, Legacy Short definition: Pattern for connecting new code to legacy code, without having to change the working contract that was produced from the legacy code originally. Concepts:
+
+- Plug adaptor
+- Convert interface into another interface
+- Legacy
+- Translate requests
+
+<img src="src/com/codewithnas/structural/adapter/uml/adapter.JPG" width="600" >
