@@ -158,3 +158,15 @@ Convert the interface of a class into another interface clients expect. Adapter 
 - Translate requests
 
 <img src="src/com/codewithnas/structural/adapter/uml/adapter.JPG" width="600" >
+
+### 3. Decorator
+
+Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality. Structure diagrams of Composite and Decorator are similar Concepts:
+
+- Also called wrapper
+- Add behavior without affecting others
+- More then just inheritance
+- Single Responsibility Principle
+- Compose behavior dynamically Examples: java.io.InputStream, java.io.BufferedReader
+
+<img src="src/com/codewithnas/structural/decorator/uml/decorator.JPG" width="600" >
