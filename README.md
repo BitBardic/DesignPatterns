@@ -170,3 +170,17 @@ Attach additional responsibilities to an object dynamically. Decorators provide 
 - Compose behavior dynamically Examples: java.io.InputStream, java.io.BufferedReader
 
 <img src="src/com/codewithnas/structural/decorator/uml/decorator.JPG" width="600" >
+
+### 4. Facade
+
+Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use. Concepts:
+
+- Make an API easier to use
+- Reduce dependencies on outside code
+- Simplify the interface or client usage
+- Usually a refactoring pattern Examples: java.net.URL Design
+- Class that utilizes composition
+- Shouldn't have a need for inheritance
+- Typically encompasses full lifecycle
+
+<img src="src/com/codewithnas/structural/facade/uml/facade.JPG" width="400" >
