@@ -183,4 +183,4 @@ Provide a unified interface to a set of interfaces in a subsystem. Facade define
 - Shouldn't have a need for inheritance
 - Typically encompasses full lifecycle
 
-<img src="src/com/codewithnas/structural/facade/uml/facade.JPG" width="400" >
+<img src="src/com/codewithnas/structural/facade/uml/facade.JPG" width="500" >
