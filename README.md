@@ -184,3 +184,14 @@ Provide a unified interface to a set of interfaces in a subsystem. Facade define
 - Typically encompasses full lifecycle
 
 <img src="src/com/codewithnas/structural/facade/uml/facade.JPG" width="500" >
+
+### 5. Flyweight
+
+Use sharing to support large numbers of fine-grained objects efficiently. Concepts:
+
+- More efficient use of memory
+- Large number of similar objects
+- Immutable
+- Most of the object states can be extrinsic Examples: java.lang.String, Integer.valueOf - pools
+
+<img src="src/com/codewithnas/structural/flyweight/uml/flyweight.JPG" width="500" >
