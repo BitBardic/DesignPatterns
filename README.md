@@ -195,3 +195,14 @@ Use sharing to support large numbers of fine-grained objects efficiently. Concep
 - Most of the object states can be extrinsic Examples: java.lang.String, Integer.valueOf - pools
 
 <img src="src/com/codewithnas/structural/flyweight/uml/flyweight.JPG" width="500" >
+
+### 6. Bridge
+
+Decouple an abstraction from its implementation so that the two can vary independently. Short definition: The Bridge pattern is very similar to the Adapter with a main difference: bridge works with new code whereas an Adapter works with legacy code. Concepts:
+
+- Decouple Abstraction and implementation
+- Encapsulation, Composition, Inheritence
+- Changes in Abstraction won't affect client
+- Details won't be right Examples: JDBC Driver (DriverManager.registerDriver())...
+
+<img src="src/com/codewithnas/structural/bridge/uml/bridge.JPG" width="500" >
