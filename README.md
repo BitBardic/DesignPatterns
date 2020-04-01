@@ -216,4 +216,4 @@ Provide a surrogate or placeholder for another object to control access to it. S
 - Security, Simplicity, Remote, Cost
 - Proxy called to access real object Examples: java.lang.reflect.Proxy, java.rmi.*,
 
-<img src="src/com/codewithnas/structural/proxy/uml/proxy.JPG" width="500" >
+<img src="src/com/codewithnas/structural/proxy/uml/proxy.JPG" width="600" >
