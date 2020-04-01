@@ -206,3 +206,14 @@ Decouple an abstraction from its implementation so that the two can vary indepen
 - Details won't be right Examples: JDBC Driver (DriverManager.registerDriver())...
 
 <img src="src/com/codewithnas/structural/bridge/uml/bridge.JPG" width="500" >
+
+### 7. Proxy
+
+Provide a surrogate or placeholder for another object to control access to it. Short Definition: Proxy - is a pattern that act as an interface to something else. Concepts:
+
+- Interface by wrapping
+- Can add functionality
+- Security, Simplicity, Remote, Cost
+- Proxy called to access real object Examples: java.lang.reflect.Proxy, java.rmi.*,
+
+<img src="src/com/codewithnas/structural/proxy/uml/proxy.JPG" width="500" >
